@@ -5,7 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    
     <link rel="stylesheet" href="http://localhost:5173/src/style.css">
+    <script type="module" src="http://localhost:5173/@vite/client"></script>
 </head>
 
 <body>
@@ -14,7 +16,7 @@
     <?php endfor; ?>
 
 
-    <script src="http://localhost:5173/src/main.ts"></script>
+    <script type="module" src="http://localhost:5173/src/main.ts"></script>
 
 </body>
 
